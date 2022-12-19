@@ -4,7 +4,7 @@ const app = express();
 const port = 5500;
 
 app.use("/", (req, res) => {
-    res.json({ massage: "Hello Express Vercel App" });
+    res.json({ message: "Hello Express Vercel App" });
 });
 
 app.listen(5500, () => {
